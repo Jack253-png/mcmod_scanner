@@ -1,0 +1,15 @@
+{
+	"configurations": [
+		{
+			"type": "python",
+			"name": "main",
+			"arguments": ["python/main.py"],
+		},
+		{
+			"type": "python",
+			"name": "compress",
+			"arguments": ["python/compress.py"],
+		},
+
+	]
+}
