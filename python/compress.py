@@ -12,6 +12,5 @@ if __name__ == "__main__":
 			item["metadata"].pop("main")
 
 
-
 	with open("mods_info_compressed.json", 'w', encoding='utf-8') as f:
 		json.dump(data, f, ensure_ascii=False)
